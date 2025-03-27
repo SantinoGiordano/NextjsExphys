@@ -17,7 +17,7 @@ const JillBox = () => {
               draggable={false}
               className="rounded-full object-cover shadow-lg float-left mr-4 mb-2"
             />
-            <p className="text-lg font-light leading-relaxed max-w-3xl">
+            <p className="text-lg font-light leading-relaxed max-w-3xl md:text-[16pt] text-justify">
               <span className="font-medium">Jill</span> is an Exercise
               Physiologist with a passion for helping others achieve their
               potential in health and fitness. Through her experience as an

@@ -17,7 +17,7 @@ const HeatherBox = () => {
               draggable={false}
               className="rounded-full object-cover shadow-lg float-left mr-4 mb-2"
             />
-            <p className="text-lg font-light leading-relaxed max-w-3xl">
+            <p className="text-lg font-light leading-relaxed max-w-3xl md:text-[16pt] text-justify">
               <span className="font-medium">Heather</span> is a Master&apos;s
               Level Exercise Physiologist with a desire to help others reach
               their health and fitness goals. She works to educate her clients
