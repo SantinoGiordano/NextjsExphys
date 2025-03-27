@@ -1,3 +1,4 @@
+import HeatherBox from "@/components/HeatherBox";
 import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
 import Image from "next/image";
@@ -28,7 +29,11 @@ export default function Home() {
         to support the work you are already doing.
       </div>
       <hr className="mx-auto w-[50%] my-4" />
-      <JillBox/>
+      <div className="flex justify-center items-center space-x-4">
+  <JillBox />
+  <HeatherBox />
+</div>
+
     </>
   );
 }
