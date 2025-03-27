@@ -5,9 +5,9 @@ import Link from "next/link";
 const JillBox = () => {
   return (
     <>
-      <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl mx-auto my-6 text-gray-800">
-        <div className="p-8 bg-gray-50">
-          <p className="text-2xl font-semibold mb-4">Jill</p>
+      <div className=" max-w-3xl h-[600px]">
+        <div className="p-10">
+          <p className="text-2xl font-semibold mb-4">Jill Roach</p>
           <div className="relative">
             <Image
               src="/jillHeadshot.jpg"
@@ -33,11 +33,11 @@ const JillBox = () => {
               aerobic fitness, and body composition. This information will bring
               targeted, individualized exercise programs to the clients of ATP.
             </p>
+            <Link href={"mailto:Jill@ATP-ExPhys.com"} className="mt-4 font-medium text-blue-600">
+              Jill@ATP-ExPhys.com
+            </Link>
           </div>
         </div>
-        <Link href={"mailto:Jill@ATP-ExPhys.com"} className="mt-4 font-medium text-blue-600">
-          Jill@ATP-ExPhys.com
-        </Link>
       </div>
     </>
   );
