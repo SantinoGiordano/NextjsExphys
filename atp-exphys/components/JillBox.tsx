@@ -1,19 +1,23 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const JillBox = () => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl mx-auto my-6 text-gray-800">
-      <div className="flex items-center space-x-4 mb-4">
-        <Image
-          src={""}
-          alt={""}
-          width={100}
-          height={100}
-          className="rounded-full"
-        />
+    <>
+      <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl mx-auto my-6 text-gray-800">
+        {/* <img className="circle-image" src="jillHeadshot.jpg" draggable="false" height={150}width={150}/> */}
+
         <div>
-          <h2 className="text-2xl font-semibold">Jill</h2>
+          <Image
+            src="/jillHeadshot.jpg" // Replace with your image path
+            alt="Jill Headshot"
+            width={150}
+            height={150}
+            draggable={false}
+            className="rounded-full "
+          />
+          <p className="text-2xl font-semibold">Jill</p>
           <p className="text-lg font-light text-gray-600">
             Jill is an Exercise Physiologist with a passion for helping others
             achieve their potential in health and fitness. Through her
@@ -29,10 +33,10 @@ const JillBox = () => {
             fitness, and body composition. This information will bring targeted,
             individualized exercise programs to the clients of ATP.
           </p>
-          <p className="mt-4 font-medium text-blue-600">Jill@ATP-ExPhys.com</p>
+          <Link href={''} className="mt-4 font-medium text-blue-600">Jill@ATP-ExPhys.com</Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
