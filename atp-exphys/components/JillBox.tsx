@@ -35,7 +35,7 @@ const JillBox = () => {
             </p>
           </div>
         </div>
-        <Link href={""} className="mt-4 font-medium text-blue-600">
+        <Link href={"mailto:Jill@ATP-ExPhys.com"} className="mt-4 font-medium text-blue-600">
           Jill@ATP-ExPhys.com
         </Link>
       </div>
