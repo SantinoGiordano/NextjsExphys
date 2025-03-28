@@ -1,27 +1,43 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import HeatherBox from "@/components/HeatherBox";
 import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
-import Image from "next/image";
 
-export default function Home() {
+const Parallax = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <>
-        <Nav />
-      <div className="bg-white min-h-screen text-black p-4">
-
-        <div className="flex justify-center items-center pt-10">
-          <Image
-            src={"/atpLogo.png"}
-            alt="ATP Logo"
-            width={250}
-            height={250}
-            className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px]"
-          />
-        </div>
-
-        <p className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mt-6">
+    <div>
+      <Nav />
+      <div
+        className="relative w-full h-[900px] bg-cover bg-center"
+        style={{
+          backgroundImage: "url(shadowrunner.jpg)",
+          transform: `translateY(${scrollY * 0.2}px)`,
+        }}
+      >
+        <div className="absolute top-0 left-0 w-full bg-black opacity-30"></div>{" "}
+        <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-2xl sm:text-3xl md:text-4xl font-bold text-white">
           Access the Potential
         </p>
+      </div>
+        <p className="pt-20"/>
+      <div className="bg-white min-h-screen text-black p-4">
+        <div className="flex justify-center items-center pt-10"></div>
         <hr className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black" />
 
         <div className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-extralight mx-auto w-full md:w-[85%] lg:w-[65%] my-4 text-justify leading-relaxed">
@@ -57,7 +73,6 @@ export default function Home() {
               className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] object-cover rounded-lg shadow-lg"
             />
           </div>
-          
         </div>
 
         <div className="flex flex-col-reverse md:flex-row justify-center items-center md:space-x-8 space-y-6 md:space-y-0 mt-8">
@@ -75,6 +90,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Parallax;
