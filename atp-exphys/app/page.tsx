@@ -9,7 +9,6 @@ export default function Home() {
         <Nav />
       <div className="bg-white min-h-screen text-black p-4">
 
-        {/* Logo Section */}
         <div className="flex justify-center items-center pt-10">
           <Image
             src={"/atpLogo.png"}
@@ -20,13 +19,11 @@ export default function Home() {
           />
         </div>
 
-        {/* Title */}
         <p className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mt-6">
           Access the Potential
         </p>
         <hr className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black" />
 
-        {/* Description */}
         <div className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-extralight mx-auto w-full md:w-[85%] lg:w-[65%] my-4 text-justify leading-relaxed">
           Do you remember high school biology? Do you remember when the teacher
           said, &quot;the mitochondria is the powerhouse of the cell&quot;? Did
