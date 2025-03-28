@@ -5,7 +5,7 @@ import Link from "next/link";
 const JillBox = () => {
   return (
     <>
-      <div className=" max-w-3xl h-[600px]">
+      <div className=" max-w-3xl ">
         <div className="p-10">
           <p className="text-2xl font-semibold mb-4">Jill Roach</p>
           <div className="relative">

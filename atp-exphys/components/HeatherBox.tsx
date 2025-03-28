@@ -5,7 +5,7 @@ import Link from "next/link";
 const HeatherBox = () => {
   return (
     <>
- <div className=" max-w-3xl h-[600px]">
+ <div className=" max-w-3xl ">
         <div className="p-10">
           <p className="text-2xl font-semibold mb-4">Heather Giordano</p>
           <div className="relative">
