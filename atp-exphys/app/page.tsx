@@ -39,10 +39,22 @@ export default function Home() {
 
         {/* JillBox and HeatherBox aligned */}
         <div className=" flex justify-center items-center space-x-8">
-          <JillBox /><img src="https://placehold.co/600x400"/>
+          <JillBox />
+          <Image
+            src="/jillwithmask.jpg" 
+            alt={"jill putting on O2 mask"} 
+            width={500}
+            height={500}
+            />
         </div>
         <div className=" flex justify-center items-center space-x-8">
-        <img src="https://placehold.co/600x400"/><HeatherBox />
+        <Image 
+        src="/heatherwithpad.jpg" 
+        alt={"Heather looking at an ipad"}
+        height={500}
+        width={500}
+        />
+        <HeatherBox />
         </div>
           
       </div>
