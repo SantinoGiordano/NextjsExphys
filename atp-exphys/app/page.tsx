@@ -57,7 +57,7 @@ const Parallax = () => {
           are already doing.
         </div>
 
-        <hr className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black" />
+        <hr  id='AboutUs'  className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black" />
 
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-6 md:space-y-0">
           <div className="w-full md:w-1/2 flex justify-center">
