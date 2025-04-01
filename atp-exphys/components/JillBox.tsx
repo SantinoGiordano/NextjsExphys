@@ -5,9 +5,9 @@ import Link from "next/link";
 const JillBox = () => {
   return (
     <>
-      <div className=" max-w-3xl ">
+      <div className="max-w-3xl bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-[1.02] duration-300">
         <div className="p-10">
-          <p className="text-2xl font-semibold mb-4">Jill Roach</p>
+          <p className="text-2xl font-bold text-gray-800 mb-4">Jill Roach</p>
           <div className="relative">
             <Image
               src="/jillHeadshot.jpg"
@@ -15,10 +15,10 @@ const JillBox = () => {
               width={150}
               height={150}
               draggable={false}
-              className="rounded-full object-cover shadow-lg float-left mr-4 mb-2"
+              className="rounded-full object-cover shadow-md float-left mr-6 mb-4 transition-transform hover:scale-105 duration-300"
             />
-            <p className="text-lg font-light leading-relaxed max-w-3xl md:text-[16pt] text-justify">
-              <span className="font-medium">Jill</span> is an Exercise
+            <p className="text-lg font-light leading-relaxed text-gray-700 md:text-[16pt] text-justify">
+              <span className="font-medium text-gray-900">Jill</span> is an Exercise
               Physiologist with a passion for helping others achieve their
               potential in health and fitness. Through her experience as an
               exercise professional, an athlete herself, and a graduate degree
@@ -33,7 +33,10 @@ const JillBox = () => {
               aerobic fitness, and body composition. This information will bring
               targeted, individualized exercise programs to the clients of ATP.
             </p>
-            <Link href={"mailto:Jill@ATP-ExPhys.com"} className="mt-4 font-medium text-blue-600">
+            <Link
+              href={"mailto:Jill@ATP-ExPhys.com"}
+              className="mt-4 inline-block font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
+            >
               Jill@ATP-ExPhys.com
             </Link>
           </div>
