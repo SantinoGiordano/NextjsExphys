@@ -46,7 +46,7 @@ export default function Nav() {
             </Link>
 
             <Link
-              href="/Our Trusted Referrals"
+              href="#Referrals"
               className="text-gray-300 hover:text-white font-medium transition-colors duration-200 relative group"
             >
               Our Trusted Referrals
@@ -54,7 +54,7 @@ export default function Nav() {
             </Link>
 
             <Link
-              href="#Referrals"
+              href=""
               className="text-gray-300 hover:text-white font-medium transition-colors duration-200 relative group"
             >
               Reach Us
