@@ -34,7 +34,7 @@ export function Referrals() {
     },
   ];
 
-  const handleClick = (url) => {
+  const handleClick = (url: string | URL | undefined) => {
     window.open(url, "_blank");
   };
 
