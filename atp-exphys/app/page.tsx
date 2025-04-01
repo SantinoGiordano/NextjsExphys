@@ -5,6 +5,7 @@ import HeatherBox from "@/components/HeatherBox";
 import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
 import { Offers } from "@/components/Offers";
+import { Referrals } from "@/components/Referrals";
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -97,6 +98,7 @@ const Home = () => {
         </div>
       </div>
       <Offers/>
+      <Referrals/>
   </>
   );
 };
