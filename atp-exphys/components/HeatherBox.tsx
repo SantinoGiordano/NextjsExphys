@@ -5,9 +5,9 @@ import Link from "next/link";
 const HeatherBox = () => {
   return (
     <>
- <div className=" max-w-3xl ">
+      <div className="max-w-3xl bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-[1.02] duration-300">
         <div className="p-10">
-          <p className="text-2xl font-semibold mb-4">Heather Giordano</p>
+          <p className="text-2xl font-bold text-gray-800 mb-4">Heather Giordano</p>
           <div className="relative">
             <Image
               src="/heatherHeadshot.jpg"
@@ -15,10 +15,10 @@ const HeatherBox = () => {
               width={150}
               height={150}
               draggable={false}
-              className="rounded-full object-cover shadow-lg float-left mr-4 mb-2"
+              className="rounded-full object-cover shadow-md float-left mr-6 mb-4 transition-transform hover:scale-105 duration-300"
             />
-            <p className="text-lg font-light leading-relaxed max-w-3xl md:text-[16pt] text-justify">
-              <span className="font-medium">Heather</span> is a Master&apos;s
+            <p className="text-lg font-light leading-relaxed text-gray-700 md:text-[16pt] text-justify">
+              <span className="font-medium text-gray-900">Heather</span> is a Master&apos;s
               Level Exercise Physiologist with a desire to help others reach
               their health and fitness goals. She works to educate her clients
               by bridging science and practical application. She enjoys leading
@@ -31,8 +31,11 @@ const HeatherBox = () => {
               this information serves as a basis for individualized goal setting
               for the clients of ATP.
             </p>
-            <Link href={""} className="mt-4 font-medium text-blue-600">
-            Heather@ATP-EXPhys.com
+            <Link
+              href={""}
+              className="mt-4 inline-block font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
+            >
+              Heather@ATP-EXPhys.com
             </Link>
           </div>
         </div>
