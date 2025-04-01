@@ -41,7 +41,7 @@ const Home = () => {
       <p className="pt-20" />
       <div className="bg-white min-h-screen text-black p-4">
         <div className="flex justify-center items-center pt-10"></div>
-        <hr className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black" />
+       
         <div className="">
           <div className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-extralight mx-auto w-full md:w-[85%] lg:w-[65%] my-4 text-justify leading-relaxed">
             Do you remember high school biology? Do you remember when the
