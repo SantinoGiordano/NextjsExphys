@@ -6,6 +6,8 @@ import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
 import { Offers } from "@/components/Offers";
 import { Referrals } from "@/components/Referrals";
+import ParallaxOffers from "@/components/parallax";
+import ParallaxFooter from "@/components/parallaxOffers";
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -65,7 +67,6 @@ const Home = () => {
           id="AboutUs"
           className="mx-auto w-[90%] sm:w-[80%] md:w-[50%] my-4 border-black"
         />
-
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-6 md:space-y-0">
           <div className="w-full md:w-1/2 flex justify-center">
             <JillBox />
@@ -97,8 +98,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ParallaxOffers/>
       <Offers/>
       <Referrals/>
+      <ParallaxFooter/>
   </>
   );
 };
