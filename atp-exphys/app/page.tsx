@@ -6,7 +6,7 @@ import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
 import { Offers } from "@/components/Offers";
 
-const Parallax = () => {
+const Home = () => {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -101,4 +101,4 @@ const Parallax = () => {
   );
 };
 
-export default Parallax;
+export default Home;
