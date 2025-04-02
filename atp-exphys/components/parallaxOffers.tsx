@@ -3,6 +3,7 @@ import React from "react";
 const ParallaxFooter = () => {
   return (
     <div
+    id="ReachUs"
       className="h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('mountainrange.jpg')" }}
     >
