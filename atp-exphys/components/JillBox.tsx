@@ -9,7 +9,7 @@ const JillBox = () => {
         <p className="text-2xl font-bold text-gray-800 mb-4">Jill Roach</p>
         <div className="relative">
           <Image
-            src="/jillHeadshot.jpg"
+            src="/jillHeadshot.JPG"
             alt="Jill Headshot"
             width={150}
             height={150}
