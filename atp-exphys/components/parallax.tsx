@@ -4,13 +4,15 @@ const ParallaxOffers = () => {
   return (
     <div
       id="offers"
-      className="relative h-[400px] bg-fixed bg-cover bg-center flex items-center justify-center"
+      className="relative min-h-[300px] md:h-[400px] lg:h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('/sunnyjog.jpg')" }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/60"></div>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className="relative z-10 bg-white/10 backdrop-blur-md p-8 rounded-lg shadow-lg text-white text-center transition-transform duration-500 hover:scale-105">
-        <h2 className="text-4xl font-bold tracking-wide">Our Offers</h2>
+      {/* Content */}
+      <div className="relative z-10 bg-white/10 dark:bg-black/20 backdrop-blur-md p-6 md:p-8 rounded-lg shadow-lg text-white text-center transition-transform duration-500 hover:scale-105 max-w-lg">
+        <h2 className="text-3xl md:text-4xl font-bold">Our Offers</h2>
         <p className="mt-2 text-lg text-gray-200">
           Discover the best deals tailored for you
         </p>

@@ -3,12 +3,16 @@ import React from "react";
 const ParallaxFooter = () => {
   return (
     <div
-    id="ReachUs"
-      className="h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
+      id="ReachUs"
+      className="relative min-h-[300px] md:h-[400px] lg:h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('mountainrange.jpg')" }}
     >
-      <div className="bg-black bg-opacity-50 p-8 rounded-lg max-w-md mx-4">
-        <h2 className="text-2xl font-bold mb-6 text-white">Contact Us</h2>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      {/* Content */}
+      <div className="relative z-10 bg-white/10 dark:bg-black/20 backdrop-blur-md p-6 md:p-8 rounded-lg shadow-lg text-white text-center max-w-md">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Contact Us</h2>
         
         <div className="space-y-4">
           <a
@@ -27,7 +31,7 @@ const ParallaxFooter = () => {
             Instagram: @move_atp
           </a>
         </div>
-        
+
         <p className="mt-6 text-gray-300">
           Reach out to us for more information about our services!
         </p>
