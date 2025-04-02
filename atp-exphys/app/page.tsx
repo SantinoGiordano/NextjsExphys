@@ -62,7 +62,7 @@ const Home = () => {
 
           <div className="hidden sm:flex w-full md:w-1/2 justify-center">
             <Image
-              src="/jillwithmask.jpg"
+              src="/jillwithmask.JPG"
               alt="Jill putting on O2 mask"
               width={500}
               height={500}
@@ -74,7 +74,7 @@ const Home = () => {
         <div className="flex flex-col-reverse md:flex-row justify-center items-center md:space-x-8 space-y-6 md:space-y-0 mt-8">
           <div className="hidden sm:flex w-full md:w-1/2 justify-center">
             <Image
-              src="/heatherwithpad.jpg"
+              src="/heatherwithpad.JPG"
               alt="Heather looking at an iPad"
               height={500}
               width={500}
