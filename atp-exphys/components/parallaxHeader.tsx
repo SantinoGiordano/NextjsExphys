@@ -4,7 +4,7 @@ const ParallaxHeader = () => {
   return (
     <div
       id="header"
-      className="relative min-h-[300px] md:h-[400px] lg:h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
+      className="relative h-screen bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('/shadowrunner.jpg')" }}
     >
       {/* Dark Overlay */}
