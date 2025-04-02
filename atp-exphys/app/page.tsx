@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import HeatherBox from "@/components/HeatherBox";
 import JillBox from "@/components/JillBox";
@@ -8,27 +7,15 @@ import { Offers } from "@/components/Offers";
 import { Referrals } from "@/components/Referrals";
 import ParallaxOffers from "@/components/parallax";
 import ParallaxFooter from "@/components/parallaxOffers";
+import ParallaxHeader from "@/components/parallaxHeader";
 
 const Home = () => {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <>
 
       <Nav />
-      <div
+      {/* <div
         className="relative w-full h-[900px] bg-cover bg-center"
         style={{
           backgroundImage: "url(shadowrunner.jpg)",
@@ -40,7 +27,8 @@ const Home = () => {
   Access the Potential
 </p>
 
-      </div>
+      </div> */}
+      <ParallaxHeader/>
       <p className="pt-20" />
       <div className="bg-white min-h-screen text-black p-4">
         <div className="flex justify-center items-center pt-10"></div>
