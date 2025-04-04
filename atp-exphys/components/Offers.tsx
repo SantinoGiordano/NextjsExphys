@@ -22,8 +22,7 @@ export function Offers() {
 
   return (
     <>
-      <h1 id="offers">
-      </h1>
+      <h1 id="offers" className="p-5"></h1>
 
       <div className="flex flex-col lg:flex-row justify-between items-center gap-16 px-4 sm:px-8 md:px-12">
         {/* Video Section */}
