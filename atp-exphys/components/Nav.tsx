@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-28 items-center">
           
-          {/* Logo */}
+
           <Link href="/" className="flex items-center">
             <Image
               src={"/atpLogo.png"}
@@ -18,7 +18,7 @@ export default function Nav() {
             />
           </Link>
 
-          {/* Navigation Links */}
+
           <nav className="hidden md:flex items-center space-x-6">
             
             <Link
