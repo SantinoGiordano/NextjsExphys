@@ -4,8 +4,8 @@ const ParallaxFooter = () => {
   return (
     <div
       id="ReachUs"
-      className="relative min-h-[60vh] sm:min-h-[70vh] md:h-[400px] lg:h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('mountainrange.jpg')" }}
+      className="relative min-h-[60vh] sm:min-h-[70vh] md:h-[400px] lg:h-[500px] bg-scroll md:bg-fixed bg-cover bg-center flex items-center justify-center"
+      style={{ backgroundImage: "url('/mountainrange.jpg')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -41,4 +41,3 @@ const ParallaxFooter = () => {
 };
 
 export default ParallaxFooter;
-
