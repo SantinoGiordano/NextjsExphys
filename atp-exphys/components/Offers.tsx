@@ -22,8 +22,7 @@ export function Offers() {
 
   return (
     <>
-      <h1 id="offers" className="text-5xl font-bold text-center my-12 text-gray-900 dark:text-gray-100">
-        Our Offers
+      <h1 id="offers">
       </h1>
 
       <div className="flex flex-col lg:flex-row justify-between items-center gap-16 px-4 sm:px-8 md:px-12">
