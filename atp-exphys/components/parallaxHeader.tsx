@@ -4,7 +4,7 @@ const ParallaxHeader = () => {
   return (
     <div
       id="header"
-      className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-screen bg-fixed bg-cover bg-center flex items-center justify-center"
+      className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-screen bg-scroll md:bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('/shadowrunner.jpg')" }}
     >
       {/* Dark Overlay */}
@@ -21,3 +21,4 @@ const ParallaxHeader = () => {
 };
 
 export default ParallaxHeader;
+
