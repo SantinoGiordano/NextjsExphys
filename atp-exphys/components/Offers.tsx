@@ -37,7 +37,7 @@ export function Offers() {
         </div>
 
         {/* Offers Section */}
-        <div className="w-full lg:w-1/2 bg-white dark:bg-gray-800 p-8 sm:p-12 overflow-y-auto rounded-lg shadow-md">
+        <div className="w-full lg:w-1/2 bg-white dark:bg-gray-800 p-8 sm:p-12 overflow-hidden rounded-lg shadow-md">
           <div className="space-y-12">
             {[{
               title: "VO2 Max",
@@ -70,6 +70,12 @@ export function Offers() {
                   <button
                     onClick={offer.onClick}
                     className="bg-blue-600 dark:bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition w-full sm:w-auto"
+                    style={{
+                      backgroundColor: '#1D4ED8', // Ensure background is blue
+                      color: '#ffffff',           // Ensure text is white
+                      padding: '12px',            // Increase padding on mobile
+                      fontSize: '16px',           // Increase font size for readability
+                    }}
                   >
                     Book Now
                   </button>
