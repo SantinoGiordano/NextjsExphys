@@ -6,8 +6,6 @@ export default function Nav() {
     <div className="bg-black border-b border-gray-700 sticky top-0 z-50 backdrop-blur-sm bg-opacity-90">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-28 items-center">
-          
-
           <Link href="/" className="flex items-center">
             <Image
               src={"/atpLogo.png"}
@@ -18,9 +16,7 @@ export default function Nav() {
             />
           </Link>
 
-
           <nav className="hidden md:flex items-center space-x-6">
-            
             <Link
               href="/"
               className="text-gray-300 hover:text-white font-medium transition-colors duration-200 relative group"
@@ -60,7 +56,6 @@ export default function Nav() {
               Reach Us
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </Link>
-
           </nav>
         </div>
       </div>
