@@ -10,8 +10,8 @@ export default function Nav() {
             <Image
               src={"/atpLogo.png"}
               alt="ATP Logo"
-              width={70}
-              height={250}
+              width={50}
+              height={100}
               className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] hover:scale-105 transition-transform duration-300"
             />
           </Link>
