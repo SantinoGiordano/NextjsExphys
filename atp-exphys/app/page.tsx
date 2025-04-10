@@ -116,7 +116,7 @@ const Home = () => {
 
       <ParallaxOffers />
       <Offers />
-      <Referrals />
+      {/* <Referrals /> */}
       <ParallaxFooter />
     </>
   );
