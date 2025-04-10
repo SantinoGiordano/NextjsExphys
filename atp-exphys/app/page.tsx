@@ -4,7 +4,7 @@ import HeatherBox from "@/components/HeatherBox";
 import JillBox from "@/components/JillBox";
 import Nav from "@/components/Nav";
 import { Offers } from "@/components/Offers";
-import { Referrals } from "@/components/Referrals";
+// import { Referrals } from "@/components/Referrals";
 import ParallaxOffers from "@/components/parallax";
 import ParallaxFooter from "@/components/parallaxOffers";
 import ParallaxHeader from "@/components/parallaxHeader";
