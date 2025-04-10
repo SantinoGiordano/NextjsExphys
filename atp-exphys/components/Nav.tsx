@@ -50,7 +50,7 @@ export default function Nav() {
             </Link> */}
 
             <Link
-              href="ReachUs"
+              href="#ReachUs"
               className="text-gray-300 hover:text-white font-medium transition-colors duration-200 relative group"
             >
               Reach Us
