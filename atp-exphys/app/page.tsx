@@ -8,10 +8,15 @@ import { Offers } from "@/components/Offers";
 import ParallaxOffers from "@/components/parallax";
 import ParallaxFooter from "@/components/parallaxOffers";
 import ParallaxHeader from "@/components/parallaxHeader";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>ATP Exphys</title>
+        <meta name="description" content="ATP Exphys - Your go-to for Exercise Physiology." />
+      </Head>
       <Nav />
       <ParallaxHeader />
       <p className="pt-20" />
