@@ -14,6 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
+      <meta name="google-site-verification" content="91onHwtCSU8ExzluK27Z4uHp0uFRvBrMlnwiAOgayQQ" />
         <title>ATP Exphys</title>
         <meta name="description" content="ATP Exphys - Your go-to for Exercise Physiology." />
       </Head>
