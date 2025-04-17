@@ -13,13 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:{
-    absolute: "Access the Potential",
-    default: "Access the Potential Exphys Partners",
-    template: "%s | ATP",
+  title: {
+    default: "ATP Exphys",
+    template: "%s | ATP Exphys",
   },
   description:
-    "This website is hosted by Jill abd heather who are hard working health psychologist who strive to do there best with there patients",
+    "ATP Exphys is led by experienced Exercise Physiologists Jill and Heather, offering personalized wellness programs and evidence-based support to help you reach your full potential.",
+  openGraph: {
+    title: "ATP Exphys",
+    description:
+      "Led by expert Exercise Physiologists, ATP Exphys delivers personalized and practical wellness solutions backed by science.",
+    url: "https://atp-exphys.com",
+    siteName: "ATP Exphys",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
