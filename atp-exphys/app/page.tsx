@@ -14,9 +14,15 @@ const Home = () => {
   return (
     <>
       <Head>
-      <meta name="google-site-verification" content="91onHwtCSU8ExzluK27Z4uHp0uFRvBrMlnwiAOgayQQ" />
+        <meta
+          name="google-site-verification"
+          content="91onHwtCSU8ExzluK27Z4uHp0uFRvBrMlnwiAOgayQQ"
+        />
         <title>ATP Exphys</title>
-        <meta name="description" content="ATP Exphys - Your go-to for Exercise Physiology." />
+        <meta
+          name="description"
+          content="ATP Exphys - Your go-to for Exercise Physiology."
+        />
       </Head>
       <Nav />
       <ParallaxHeader />
@@ -123,8 +129,8 @@ const Home = () => {
       <ParallaxOffers />
       <Offers />
       {/* <Referrals /> */}
-      <div id='ReachUs'>
-      <ParallaxFooter />
+      <div id="ReachUs">
+        <ParallaxFooter />
       </div>
     </>
   );
