@@ -9,6 +9,7 @@ import ParallaxOffers from "@/components/parallax";
 import ParallaxFooter from "@/components/parallaxOffers";
 import ParallaxHeader from "@/components/parallaxHeader";
 import Head from "next/head";
+import UpArrow from "@/components/UpArrow";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       </Head>
       <Nav />
       <ParallaxHeader />
+      <UpArrow/>
       <p className="pt-20" />
       <div className="bg-white min-h-screen text-black p-4">
         <div className="flex justify-center items-center pt-10"></div>
