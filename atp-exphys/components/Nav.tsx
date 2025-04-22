@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="bg-black border-b border-gray-700 sticky top-0 z-50 backdrop-blur-sm bg-opacity-90">
       <div className="px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-28 items-center">
+        <div className="flex justify-between h-20 items-center">
           <Link href="/" className="flex items-center">
             <Image
               src={"/atpLogo.png"}
