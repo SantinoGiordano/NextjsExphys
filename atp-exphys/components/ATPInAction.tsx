@@ -37,13 +37,13 @@ export default function Collection() {
   const images: Art[] = [
     { url: "/convo-Heather.JPG", name: "Convo with Heather" },
     { url: "/group-Talking.JPG", name: "Group Talking" },
-    { url: "/jillexplaining.jpg", name: "Image 3" },
-    { url: "/JillheatherCristtalking.jpg", name: "Image 4" },
-    { url: "/jillHelpingmask.jpg", name: "Image 5" },
-    { url: "/fingersSue.jpg", name: "Image 6" },
-    { url: "heatherstraps.jpg", name: "Image 7" },
-    { url: "heatherSueTalking.JPG", name: "Image 8" },
-    { url: "/Jilllaughing.jpg", name: "Image 9" },
+    { url: "/jillexplaining.JPG", name: "Image 3" },
+    { url: "/JillheatherCristtalking.JPG", name: "Image 4" },
+    { url: "/jillHelpingmask.JPG", name: "Image 5" },
+    { url: "/fingersSue.JPG", name: "Image 6" },
+    { url: "/heatherstraps.JPG", name: "Image 7" },
+    { url: "/heatherSueTalking.JPG", name: "Image 8" },
+    { url: "/Jilllaughing.JPG", name: "Image 9" },
     // { url: "/heatherExplaining.jpg", name: "Image 10" },
   ];
 
@@ -68,9 +68,7 @@ export default function Collection() {
               height={300}
               className="rounded-xl w-full h-auto object-cover"
               />
-            <p className="text-center mt-4 text-lg font-semibold">
-              {/* {item.name} */}
-            </p>
+            
           </div>
         ))}
       </div>
