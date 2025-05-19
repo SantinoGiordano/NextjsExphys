@@ -69,7 +69,7 @@ export default function Collection() {
               className="rounded-xl w-full h-auto object-cover"
               />
             <p className="text-center mt-4 text-lg font-semibold">
-              {item.name}
+              {/* {item.name} */}
             </p>
           </div>
         ))}
