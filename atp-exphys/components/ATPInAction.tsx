@@ -35,15 +35,15 @@ export default function Collection() {
   const [selectedArt, setSelectedArt] = useState<Art | null>(null);
 
   const images: Art[] = [
-    { url: "convo-Heather.JPG", name: "Convo with Heather" },
-    { url: "group-Talking.jpg", name: "Group Talking" },
-    { url: "jillexplaining.jpg", name: "Image 3" },
-    { url: "JillheatherCristtalking.jpg", name: "Image 4" },
-    { url: "jillHelpingmask.jpg", name: "Image 5" },
-    { url: "fingersSue.jpg", name: "Image 6" },
+    { url: "/convo-Heather.JPG", name: "Convo with Heather" },
+    { url: "/group-Talking.JPG", name: "Group Talking" },
+    { url: "/jillexplaining.jpg", name: "Image 3" },
+    { url: "/JillheatherCristtalking.jpg", name: "Image 4" },
+    { url: "/jillHelpingmask.jpg", name: "Image 5" },
+    { url: "/fingersSue.jpg", name: "Image 6" },
     { url: "heatherstraps.jpg", name: "Image 7" },
-    { url: "heatherSueTalking.jpg", name: "Image 8" },
-    { url: "Jilllaughing.jpg", name: "Image 9" },
+    { url: "heatherSueTalking.JPG", name: "Image 8" },
+    { url: "public/Jilllaughing.jpg", name: "Image 9" },
     // { url: "/heatherExplaining.jpg", name: "Image 10" },
   ];
 
