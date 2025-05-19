@@ -36,7 +36,7 @@ export default function Collection() {
 
   const images: Art[] = [
     { url: "/convo-Heather.JPG", name: "Convo with Heather" },
-    { url: "/group-Talking.JPG", name: "Group Talking" },
+    { url: "/groupTalking.JPG", name: "Group Talking" },
     { url: "/jillexplaining.JPG", name: "Image 3" },
     { url: "/JillheatherCristtalking.JPG", name: "Image 4" },
     { url: "/jillHelpingmask.JPG", name: "Image 5" },
