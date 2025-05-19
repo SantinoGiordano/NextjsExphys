@@ -35,8 +35,8 @@ export default function Collection() {
   const [selectedArt, setSelectedArt] = useState<Art | null>(null);
 
   const images: Art[] = [
-    { url: "convo-Heather.jpg", name: "Convo with Heather" },
-    { url: "groupTalking.jpg", name: "Group Talking" },
+    { url: "convo-Heather.JPG", name: "Convo with Heather" },
+    { url: "group-Talking.jpg", name: "Group Talking" },
     { url: "jillexplaining.jpg", name: "Image 3" },
     { url: "JillheatherCristtalking.jpg", name: "Image 4" },
     { url: "jillHelpingmask.jpg", name: "Image 5" },
