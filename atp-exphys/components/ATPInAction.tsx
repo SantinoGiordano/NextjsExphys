@@ -35,16 +35,16 @@ export default function Collection() {
   const [selectedArt, setSelectedArt] = useState<Art | null>(null);
 
   const images: Art[] = [
-    { url: "/exphys_lenox fit/convoHeather.jpg", name: "Convo with Heather" },
-    { url: "/exphys_lenox fit/groupTalking.jpg", name: "Group Talking" },
-    { url: "/exphys_lenox fit/jillexplaining.jpg", name: "Image 3" },
-    { url: "/exphys_lenox fit/JillheatherCristtalking.jpg", name: "Image 4" },
-    { url: "/exphys_lenox fit/jillHelpingmask.jpg", name: "Image 5" },
-    { url: "/exphys_lenox fit/fingersSue.jpg", name: "Image 6" },
-    { url: "/exphys_lenox fit/heatherstraps.jpg", name: "Image 7" },
-    { url: "/exphys_lenox fit/heatherSueTalking.jpg", name: "Image 8" },
-    { url: "/exphys_lenox fit/Jilllaughing.jpg", name: "Image 9" },
-    // { url: "/exphys_lenox fit/heatherExplaining.jpg", name: "Image 10" },
+    { url: "/convoHeather.jpg", name: "Convo with Heather" },
+    { url: "/groupTalking.jpg", name: "Group Talking" },
+    { url: "/jillexplaining.jpg", name: "Image 3" },
+    { url: "/JillheatherCristtalking.jpg", name: "Image 4" },
+    { url: "/jillHelpingmask.jpg", name: "Image 5" },
+    { url: "/fingersSue.jpg", name: "Image 6" },
+    { url: "/heatherstraps.jpg", name: "Image 7" },
+    { url: "/heatherSueTalking.jpg", name: "Image 8" },
+    { url: "/Jilllaughing.jpg", name: "Image 9" },
+    // { url: "/heatherExplaining.jpg", name: "Image 10" },
   ];
 
   return (
