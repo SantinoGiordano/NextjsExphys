@@ -43,7 +43,7 @@ export default function Collection() {
     { url: "/fingersSue.jpg", name: "Image 6" },
     { url: "heatherstraps.jpg", name: "Image 7" },
     { url: "heatherSueTalking.JPG", name: "Image 8" },
-    { url: "public/Jilllaughing.jpg", name: "Image 9" },
+    { url: "/Jilllaughing.jpg", name: "Image 9" },
     // { url: "/heatherExplaining.jpg", name: "Image 10" },
   ];
 
