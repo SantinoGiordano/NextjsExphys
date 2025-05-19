@@ -10,6 +10,7 @@ import ParallaxFooter from "@/components/parallaxOffers";
 import ParallaxHeader from "@/components/parallaxHeader";
 import Head from "next/head";
 import UpArrow from "@/components/UpArrow";
+import ATPInAction from "@/components/ATPInAction";
 
 const Home = () => {
   return (
@@ -130,7 +131,9 @@ const Home = () => {
 
       <ParallaxOffers />
       <Offers />
-      {/* <Referrals /> */}
+      <div id="ATPinAction">
+      <ATPInAction/>
+      </div>
       <div id="ReachUs">
         <ParallaxFooter />
       </div>
